@@ -1,19 +1,125 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: vanish 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 5%
+    left: 2%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 22%
+    left: 13%
+  &-3
+    animation: float1 4.5s ease-in-out infinite alternate
+    position: absolute
+    top: 27%
+    right: 12%
+  &-4
+    animation: float2 7.0s ease-in-out infinite alternate
+    position: absolute
+    bottom: 2%
+    right: 22%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
-  100%
     transform: translateY(0px)
+  100%
+    transform: translateY(30px)
+  
+@keyframes float2
+  0%
+    transform: translateX(0px)
+  100%
+    transform: translateX(30px)
+
+@keyframes vanish
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.banner-principal__row .banner-principal__img
+  width: 34%
+
+.BG01
+  background-color: #FF9D00
+
+.BG02, .BGR02, .cajon.color-acento-contenido
+  background-color: #C3F8FF
+
+.BG03, .BGRS03, .cajon.color-secundario
+  background-color: #E5DFF9
+
+.BGR04
+  background-color: #E4FCFF
+
+.BG05
+  background-color: #CBBFF4
+
+.BG06
+  background-color: #88F2FF
+
+.BG07
+  background-color: #81D4FA
+
+.BGR8
+  background-color: $white
+
+.BGR09
+  background-color: #DCFBFF
+
+.BGR02, .BGR04, .BGR08, .BGR09
+  border-radius: 10px
+
+.BGRS03
+  border-radius: 0 250px 0 0
+
+.BGR08
+  border: 3px solid #00BCD4
+
+.img-01
+  position: absolute
+  left: 107px
+  @media (max-width: $bp-max-lg)
+    position: relative
+    left: 0
+
+.img-02
+  position: absolute
+  left: 25px
+  @media (max-width: $bp-max-lg)
+    position: relative
+    left: 0
+  
+.img-03
+  position: absolute
+  right: 100px
+  @media (max-width: $bp-max-lg)
+    position: relative
+    right: 0
+  
+.w-85
+  width: 85% !important
+    
+.hg-01
+  height: 203px
+  @media (max-width: $bp-max-xl)
+    height: 227px
+  @media (max-width: $bp-max-lg)
+    height: 299px
+  @media (max-width: $bp-max-md)
+    height: initial
+
+.hg-02
+  height: 408px
+  @media (max-width: $bp-max-xl)
+    height: 436px
+  @media (max-width: $bp-max-lg)
+    height: 440px
+  @media (max-width: $bp-max-md)
+    height: initial
+
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #000
+

@@ -5,7 +5,35 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Medidas de seguridad
+    
+    figure.mb-5(data-aos="zoom-in")
+      img(src='@/assets/curso/tema3/img01.jpg')
+    
+    p Para descartar futuros problemas legales de carácter administrativo, es aconsejable implementar algunas medidas de seguridad con miras al correcto manejo del almacén, a saber:
+
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-lg-0.mb-4
+        img(src='@/assets/curso/tema3/img02.svg')
+      .col-lg-8
+        ul.lista-ul--color
+          li
+            i.far.fa-check-circle(style="color: #00BCD4")
+            | Controlar el acceso del personal que ingresa al área, atendiéndolo en lugares adecuados para ello y que estén retirados del área de almacenamiento.
+
+          li
+            i.far.fa-check-circle(style="color: #00BCD4")
+            | Determinar las áreas restringidas para evitar acceso de personal no autorizado.
+
+          li
+            i.far.fa-check-circle(style="color: #00BCD4")
+            | Proteger los lugares donde se encuentre la documentación y los productos farmacéuticos.
+          li
+            i.far.fa-check-circle(style="color: #00BCD4")
+            | Documentar y definir los requisitos que debe cumplir cada colaborador que ingrese, además de la función que va a cumplir.
+
+    
+
 
 </template>
 
