@@ -329,8 +329,68 @@
               td.text-center.text-white(style="background-color: #548DD4;") Azul rayado
     
     ModalA(:abrir-modal.sync="modal2")
-      p NOTA: Por favor incluir aquí el recurso a elaborar y descrito en la  diapositiva No.4 “Farmacias-droguerías” del archivo generado para el CF13 llamado:
-      p CF013_2_2_areas_tecnicas.pptx
+      .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F2EEFC")
+        SlyderA.slyder-a-edit(tipo="b")
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Depósitos de drogas
+              p En la imagen se muestran sus áreas.
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-2.png' style="max-width: 660px")
+          
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Agencias de especialidades farmacéuticas
+              p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción del reenvase de materias primas, pues no lo tienen autorizado.
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-3.png' style="max-width: 660px")
+          
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Farmacias - droguerías
+              p En la imagen se muestran las áreas que la conforman. Adicionalmente se debe tener en cuenta:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-atom(style="color: #7E5EE3")
+                  | Para las preparaciones magistrales se debe contar con un área para el almacenamiento de las materias primas.
+                li
+                  i.fas.fa-atom(style="color: #7E5EE3")
+                  | El área de cuarentena se divide en I naranja y II negra para el almacenamiento adecuado de los productos y evitar confusiones.
+                li
+                  i.fas.fa-atom(style="color: #7E5EE3")
+                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medica-mentos con dispositivos y/o con fitoterapéuticos, etc.
+                li
+                  i.fas.fa-atom(style="color: #7E5EE3")
+                  | El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
+          
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Droguerías
+              p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
+
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Servicios farmacéuticos hospitalarios de baja complejidad
+              p Este servicio debe contar las áreas mostradas en la imagen.
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-5.png' style="max-width: 660px")
+
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
+              .h5 Servicios farmacéuticos hospitalarios de mediana y alta complejidad
+              p Además de las áreas mencionadas para el servicio farmacéutico hospitalario de baja complejidad, el servicio farmacéutico hospitalario de mediana y alta complejidad, debe tener las siguientes áreas adicionales:
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-6.png' style="max-width: 660px")
     
     ModalA(:abrir-modal.sync="modal3")
       .tabla-a.color-acento-contenido
