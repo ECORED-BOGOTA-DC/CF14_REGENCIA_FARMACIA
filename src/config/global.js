@@ -133,6 +133,18 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -148,8 +160,13 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
+        titulo: 'Descargar HTML',
         download: 'downloads/material.zip',
       },
       {
@@ -313,9 +330,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Morales',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

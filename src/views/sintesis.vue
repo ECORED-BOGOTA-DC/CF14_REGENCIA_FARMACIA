@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Las #[strong buenas prácticas de almacenamiento de productos farmacéuticos] son fundamentales para garantizar la calidad, eficacia y seguridad de los medicamentos y otros productos de salud. En este componente formativo, se abordaron varios aspectos esenciales relacionados con el almacenamiento adecuado de estos.
+    p.mb-5 En resumen, las buenas prácticas de almacenamiento de productos farmacéuticos abarcan una serie de aspectos fundamentales, desde la planificación y diseño de las instalaciones hasta los controles, la documentación y el cumplimiento de normativas. Estas prácticas aseguran la calidad y seguridad de los productos y contribuyen a mantener la eficacia de los tratamientos y la confianza de los pacientes. El siguiente esquema proporciona una breve revisión de los temas abordados.
 
     .row.justify-content-center
       .col-lg-10.mb-5
