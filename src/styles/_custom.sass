@@ -82,8 +82,10 @@
   position: absolute
   left: 107px
   @media (max-width: $bp-max-lg)
+    left: 50px
+  @media (max-width: $bp-max-md)
     position: relative
-    left: 0
+    left: 150px
 
 .img-02
   position: absolute
@@ -123,3 +125,11 @@
 .img-infografica.color-acento-botones .img-infografica__item__numero
   color: #000
 
+.lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li
+  display: flex
+
+.text-ciel
+  color: #c3f8ff !important
+
+.tabs-c.color-primario .tabs-c__tab--active
+  font-weight: 900

@@ -36,10 +36,10 @@
                 | Protegerlos de la temperatura.
               li
                 i.fas.fa-check-circle(style="color: #00BCD4")
-                | No exponerlos a la luz directa
+                | No exponerlos a la luz directa.
               li
                 i.fas.fa-check-circle(style="color: #00BCD4")
-                | Protegerlos de la exposición directa a la luz solar, contaminantes del aire y la humedad
+                | Protegerlos de la exposición directa a la luz solar, contaminantes del aire y la humedad.
               li
                 i.fas.fa-check-circle(style="color: #00BCD4")
                 | Alejados de calderas, depósitos de basuras, cocinas (contaminación cruzada), estacionamientos y centrales de esterilización.
@@ -132,165 +132,156 @@
 
     p Los siguientes factores también son importantes al momento de aplicarse en el diseño de las instalaciones:
 
-    .BGR04.p-4.mb-5
-      PasosB.color-acento-contenido(data-aos="zoom-in")
-        .row.justify-content-center(titulo="Señalización")
-          .col-lg-5
-            .h4 Señalización
-            p Cada área debe tener una adecuada señalización y estar demarcada con los colores definidos en la tabla.
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                  span(style="color: #000000; font-weight: 700 ") Tabla de Colores
-                  .indicador--click(v-if="mostrarIndicador")
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img15.png')
-        .row.justify-content-center(titulo="Distribución")
-          .col-lg-5
-            .h4 Distribución
-            p La figura muestra un ejemplo de la distribución de las áreas de un servicio farmacéutico, incluyendo su identificación con colores.
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                  span(style="color: #000000; font-weight: 700 ") Distribución de las Áreas
-                  .indicador--click(v-if="mostrarIndicador")
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img16.png')
-        .row.justify-content-center(titulo="Pisos")
-          .col-lg-5
-            .h4 Pisos
-            p Los pisos del servicio o establecimiento farmacéutico deben cumplir con los siguientes requisitos:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Garantizar su  impermeabilidad.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Solidez.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Resistencia.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Capacidad antideslizante.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Facilidad de limpieza.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Uniformidad.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Que eviten tropiezos y accidentes.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Los materiales que se utilicen para su construcción no deben propagar ruido ni vibración.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | No utilizar sifón o rejilla, ya que promueve el acceso de roedores. En caso de utilizarlas, instalar mallas o rejillas seguras.
+    AcordionA.mb-5(tipo="a" clase-tarjeta="BGR09" data-aos="fade-up")
+      .row.justify-content-center(titulo="Señalización")
+        .col-lg-5
+          p Cada área debe tener una adecuada señalización y estar demarcada con los colores definidos en la tabla.
+          .row
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                span(style="color: #000000; font-weight: 700 ") Tabla de Colores
+                .indicador--click(v-if="mostrarIndicador")
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img15.png')
+      .row.justify-content-center(titulo="Distribución")
+        .col-lg-5
+          p La figura muestra un ejemplo de la distribución de las áreas de un servicio farmacéutico, incluyendo su identificación con colores.
+          .row
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                span(style="color: #000000; font-weight: 700 ") Distribución de las Áreas
+                .indicador--click(v-if="mostrarIndicador")
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img16.png')
+      .row.justify-content-center(titulo="Pisos")
+        .col-lg-5
+          p Los pisos del servicio o establecimiento farmacéutico deben cumplir con los siguientes requisitos:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Garantizar su  impermeabilidad.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Solidez.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Resistencia.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Capacidad antideslizante.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Facilidad de limpieza.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Uniformidad.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Que eviten tropiezos y accidentes.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Los materiales que se utilicen para su construcción no deben propagar ruido ni vibración.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | No utilizar sifón o rejilla, ya que promueve el acceso de roedores. En caso de utilizarlas, instalar mallas o rejillas seguras.
 
-          .col-lg-5
-            figure.mb-4
-              img(src='@/assets/curso/tema2/img17.png')
-            .cajon.color-secundario.p-4
-              .h5.mb-0 Los productos farmacéuticos no deben estar en contacto directo con el piso. Para ello, se deben utilizar estibas o estanterías que cumplan con requisitos de resistencia, y materiales que no propaguen la contaminación e incendios.
-        .row.justify-content-center(titulo="Temperatura y humedad")
-          .col-lg-5
-            .h4 Temperatura y humedad
-            p Las condiciones de temperatura y humedad deben:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Contar con controles y estrategias para mantenerlas dentro de los rangos aceptables según las recomendaciones dadas por el laboratorio fabricante.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Llevar registro diario con un termohigrómetro calibrado.
-            p La siguiente tabla corresponde a los rangos de temperatura de almacenamiento, de acuerdo con lo especificado por los fabricantes de medicamentos y dispositivos médicos.
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
-                  span(style="color: #000000; font-weight: 700 ") Tabla rangos de temperatura
-                  .indicador--click(v-if="mostrarIndicador")
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img18.png')
-        .row.justify-content-center(titulo="Cadena de frío")
-          .col-lg-5
-            .h4 Cadena de frío
-            p Los productos farmacéuticos que necesitan ser refrigerados deben ser llevados a:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Cuartos fríos.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Neveras.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Refrigeradores o congeladores.
-            p Frente a posibles cortes de energía u otro tipo de inconvenientes que pongan en riesgo la estabilidad de los productos, se debe:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Tener un plan de emergencia que garantice que las condiciones de la cadena de frio se mantengan.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Contar con instrumentos como un termómetro que registre la temperatura y registrarla varias veces al día.
+        .col-lg-5
+          figure.mb-4
+            img(src='@/assets/curso/tema2/img17.png')
+          .cajon.color-secundario.p-4
+            .h5.mb-0 Los productos farmacéuticos no deben estar en contacto directo con el piso. Para ello, se deben utilizar estibas o estanterías que cumplan con requisitos de resistencia, y materiales que no propaguen la contaminación e incendios.
+      .row.justify-content-center(titulo="Temperatura y humedad")
+        .col-lg-5
+          p Las condiciones de temperatura y humedad deben:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Contar con controles y estrategias para mantenerlas dentro de los rangos aceptables según las recomendaciones dadas por el laboratorio fabricante.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Llevar registro diario con un termohigrómetro calibrado.
+          p La siguiente tabla corresponde a los rangos de temperatura de almacenamiento, de acuerdo con lo especificado por los fabricantes de medicamentos y dispositivos médicos.
+          .row
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                span(style="color: #000000; font-weight: 700 ") Tabla rangos de temperatura
+                .indicador--click(v-if="mostrarIndicador")
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img18.png')
+      .row.justify-content-center(titulo="Cadena de frío")
+        .col-lg-5
+          p Los productos farmacéuticos que necesitan ser refrigerados deben ser llevados a:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Cuartos fríos.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Neveras.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Refrigeradores o congeladores.
+          p Frente a posibles cortes de energía u otro tipo de inconvenientes que pongan en riesgo la estabilidad de los productos, se debe:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Tener un plan de emergencia que garantice que las condiciones de la cadena de frio se mantengan.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Contar con instrumentos como un termómetro que registre la temperatura y registrarla varias veces al día.
 
-            p El diagrama presenta un ejemplo de la cadena de frío de las vacunas.
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
-                  span(style="color: #000000; font-weight: 700 ") Cadena de frío de las vacunas
-                  .indicador--click(v-if="mostrarIndicador")
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img19.png')
-        .row.justify-content-center(titulo="Refrigeración")
-          .col-lg-5
-            .h4 Refrigeración
-            p Los cuartos fríos son utilizados cuando se manejan volúmenes muy grandes de productos farmacéuticos que requieren temperaturas muy específicas como se verá en la siguiente figura.
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img20.png')
-        .row.justify-content-center(titulo="Refrigeración vacunas")
-          .col-lg-5
-            .h4 Refrigeración vacunas
-            p Uno de los productos farmacéuticos que requiere mayor cuidado en su manipulación y almacenamiento son los biológicos (vacunas).
-            p Para su conservación en las neveras se debe tener en cuenta:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | <a style="font-weight: 900">Su empaque:</a> su dimensión determina las condiciones de su almacenamiento y transporte.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Lugar donde deben ir almacenadas en la nevera.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Los elementos que sirven como coadyudantes para su conservación.
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img21.png')
-        .row.justify-content-center(titulo="Almacenamiento vacunas")
-          .col-lg-5
-            .h4 Almacenamiento vacunas
-            p La identificación de los productos farmacéuticos (vacunas) incluye:
-            ul.lista-ul--color
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Tipo de vacuna.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Presentación.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Número de lote.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Fecha de caducidad.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | Fecha de ingreso.
-            .cajon.color-secundario.p-4
-              .h5.mb-0 No se deben almacenar otros productos diferentes a las vacunas en las neveras.
-          .col-lg-5
-            img(src='@/assets/curso/tema2/img22.png')
+          p El diagrama presenta un ejemplo de la cadena de frío de las vacunas.
+          .row
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                span(style="color: #000000; font-weight: 700 ") Cadena de frío de las vacunas
+                .indicador--click(v-if="mostrarIndicador")
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img19.png')
+      .row.justify-content-center(titulo="Refrigeración")
+        .col-lg-5
+          p Los cuartos fríos son utilizados cuando se manejan volúmenes muy grandes de productos farmacéuticos que requieren temperaturas muy específicas como se verá en la siguiente figura.
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img20.png')
+      .row.justify-content-center(titulo="Refrigeración vacunas")
+        .col-lg-5
+          p Uno de los productos farmacéuticos que requiere mayor cuidado en su manipulación y almacenamiento son los biológicos (vacunas).
+          p Para su conservación en las neveras se debe tener en cuenta:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | <a style="font-weight: 900">Su empaque:</a> su dimensión determina las condiciones de su almacenamiento y transporte.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Lugar donde deben ir almacenadas en la nevera.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Los elementos que sirven como coadyuvantes para su conservación.
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img21.png')
+      .row.justify-content-center(titulo="Almacenamiento vacunas")
+        .col-lg-5
+          p La identificación de los productos farmacéuticos (vacunas) incluye:
+          ul.lista-ul--color
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Tipo de vacuna.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Presentación.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Número de lote.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Fecha de caducidad.
+            li
+              i.far.fa-check-circle(style="color: #00BCD4")
+              | Fecha de ingreso.
+          .cajon.color-secundario.p-4
+            .h5.mb-0 No se deben almacenar otros productos diferentes a las vacunas en las neveras.
+        .col-lg-5
+          img(src='@/assets/curso/tema2/img22.png')
 
     ModalA(:abrir-modal.sync="modal1")
       .tabla-a.color-acento-contenido
@@ -349,6 +340,14 @@
           
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
+              .h5 Droguerías
+              p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
+            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
+
+          .row.justify-content-center
+            .col-lg-5.order-lg-1.order-2
               .h5 Farmacias - droguerías
               p En la imagen se muestran las áreas que la conforman. Adicionalmente se debe tener en cuenta:
               ul.lista-ul--color
@@ -360,7 +359,7 @@
                   | El área de cuarentena se divide en I naranja y II negra para el almacenamiento adecuado de los productos y evitar confusiones.
                 li
                   i.fas.fa-atom(style="color: #7E5EE3")
-                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medica-mentos con dispositivos y/o con fitoterapéuticos, etc.
+                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medica-mentos con dispositivos o con fitoterapéuticos, etc.
                 li
                   i.fas.fa-atom(style="color: #7E5EE3")
                   | El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
@@ -368,14 +367,6 @@
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
           
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Droguerías
-              p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
-
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               .h5 Servicios farmacéuticos hospitalarios de baja complejidad
@@ -469,24 +460,24 @@
             img(src='@/assets/curso/tema2/img25.png')
       .BGR02.p-4(titulo="Iluminación")
         .row.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-lg-0.mb-4
             h4 Iluminación
             p Se puede contar con iluminación natural o artificial que permita la conservación adecuada, identificación de los productos farmacéuticos y el buen manejo de la documentación.
           .col-lg-6.col-10
             img(src='@/assets/curso/tema2/img26.png')
       .BGR02.p-4(titulo="Ventilación")
         .row.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-lg-0.mb-4
             h4 Ventilación
-            p Sistema de ventilación natural y/o artificial para la conservación adecuada de los productos farmacéuticos. 
+            p Sistema de ventilación natural o artificial para la conservación adecuada de los productos farmacéuticos. 
             .cajon.color-secundario.p-4.mb-4
-              p.mb-0 Nota: no se debe malinterpretar o tomar como ventilación natural el hecho de dejar las ventanas y/o puertas abiertas, porque podrían contaminar los productos farmacéuticos.
-            p.mb-0 Dicha contaminación se puede presentar por la presencia de gases como el CO2 (gas carbónico), el CO (monóxido de carbono) y el vapor de agua, entre otros.
+              p.mb-0 Nota: no se debe malinterpretar o tomar como ventilación natural el hecho de dejar las ventanas o puertas abiertas, porque podrían contaminar los productos farmacéuticos.
+            p.mb-0 Dicha contaminación se puede presentar por la presencia de gases como el CO<sub>2</sub> (gas carbónico), el CO (monóxido de carbono) y el vapor de agua, entre otros.
           .col-lg-6.col-10
             img(src='@/assets/curso/tema2/img27.png')
       .BGR02.p-4(titulo="Condiciones ambientales")
         .row.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-lg-0.mb-4
             h4 Condiciones ambientales
             ul.lista-ul--color
               li
@@ -507,7 +498,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 Plan de contingencia cadena de frio ante falla o interrupción de fluido eléctrico
+              h4.text-ciel.mb-1 Plan de contingencia cadena de frio ante falla o interrupción de fluido eléctrico
               p.text-white En el siguiente Anexo se puede ver un ejemplo de un plan de contingencia frente a un posible corte de energía:  
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/plan_de_contingencia_cadena_de_frio_ante_falla_o_interrupcion_de_fluido_electrico.pdf')" target="_blank")
@@ -521,6 +512,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    mostrarIndicador: true,
     modal1: false,
     modal2: false,
     modal3: false,

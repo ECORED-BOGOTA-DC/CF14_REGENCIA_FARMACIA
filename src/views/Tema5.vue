@@ -21,11 +21,11 @@
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             .h4 Requerimientos documentales
-            p Adicional a los documentos enunciados antes, se tiene la alternativa de contar con un #[em software] que agilice el registro y análisis de la información como insumo para la toma de decisiones, el cual debe contar con el manejo y control de información y/o procesos descrita en la ilustración.
+            p Adicional a los documentos enunciados antes, se tiene la alternativa de contar con un #[em software] que agilice el registro y análisis de la información como insumo para la toma de decisiones, el cual debe contar con el manejo y control de información o procesos descrita en la ilustración.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             .BG05.p-4.mb-lg-4
               .h4 Dotación
-              p.mb-0 Estanterías, estibas, congeladores, neveras, termohigrómetro, compartimentos especiales para almacenar medicamentos de control especial, escritorio, sillas, extintores, sistemas de cómputo, software, carretas para movilizar la mercancía, utensilios de oficina, papelería, línea, canecas, para residuos y bibliografía. Los equipos  o instrumentos de medición deben tener hoja de vida y estar en el programa de mantenimiento.
+              p.mb-0 Estanterías, estibas, congeladores, neveras, termohigrómetro, compartimentos especiales para almacenar medicamentos de control especial, escritorio, sillas, extintores, sistemas de cómputo, #[em software], carretas para movilizar la mercancía, utensilios de oficina, papelería, línea, canecas, para residuos y bibliografía. Los equipos  o instrumentos de medición deben tener hoja de vida y estar en el programa de mantenimiento.
             .row.justify-content-center
               .col-lg-6
                 .BG06.hg-01.p-4
@@ -45,7 +45,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-4 Proceso de manejo de medicamentos vencidos, deteriorados, alterados, usados y excedentes
+              h4.text-ciel.mb-4 Proceso de manejo de medicamentos vencidos, deteriorados, alterados, usados y excedentes
               p.text-white.mb-2 #[strong Función]: establece objetivos y estándares de la compañía en diferentes temas.
               p.text-white.mb-2 #[strong Ejemplo]: plan integral de manejo de residuos hospitalarios y similares.
             .col-sm-auto
@@ -60,7 +60,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-4 Limpieza y desinfección de áreas de almacenamiento de medicamentos y dispositivos médicos
+              h4.text-ciel.mb-4 Limpieza y desinfección de áreas de almacenamiento de medicamentos y dispositivos médicos
               p.text-white.mb-2 #[strong Función]: detallar paso a paso una actividad que se realice.
               p.text-white.mb-2 #[strong Ejemplo]: instructivo de limpieza.
             .col-sm-auto
@@ -75,7 +75,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-4 Almacenamiento de productos farmacéuticos
+              h4.text-ciel.mb-4 Almacenamiento de productos farmacéuticos
               p.text-white.mb-2 #[strong Función]: definir las actividades que se realizan en el proceso.
               p.text-white.mb-2 #[strong Ejemplos]: Procedimiento almacenamiento de productos farmacéuticos. 
               p.text-white.mb-2 Procedimiento de limpieza y desinfección.
@@ -91,7 +91,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-4 Control de lotes y fechas de vencimiento de productos farmacéuticos
+              h4.text-ciel.mb-4 Control de lotes y fechas de vencimiento de productos farmacéuticos
               p.text-white.mb-2 #[strong Función]: permiten dejar evidencia de la realización de una actividad o tarea.
               p.text-white.mb-2 #[strong Ejemplos]: Matriz de medicamentos, dispositivos médicos e insumos.
               p.text-white.mb-2 Acta de recepción técnica y administrativa de productos farmacéuticos.

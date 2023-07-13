@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 . Logística en el abastecimiento, acondicionamiento y distribución de productos farmacéuticos
+      h1 Logística en el abastecimiento, acondicionamiento y distribución de productos farmacéuticos
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-2(data-aos="fade-right")
@@ -113,7 +113,7 @@
 
     ModalA(:abrir-modal.sync="modal1")
       .p-4
-        img(src="@/assets/curso/tema8/img06.png")
+        img(src="@/assets/curso/tema8/img06.svg")
 
 
 </template>

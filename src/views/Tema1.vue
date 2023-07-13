@@ -12,7 +12,7 @@
         img(src="@/assets/curso/tema1/img01.png")
       .col-lg-9(data-aos="fade-left")
         p Es un proceso general basado en un conjunto de actividades que tiene como objetivo principal el cuidado y la conservación de las especificaciones y características técnicas de los productos farmacéuticos almacenados en los establecimientos y servicios farmacéuticos.
-        p.mb-0 El proceso de almacenamiento de los productos farmacéuticos pertenece a los procesos generales del servicio y/o establecimiento farmacéutico. En la siguiente figura se podrá observar su ubicación dentro de estos procesos.
+        p.mb-0 El proceso de almacenamiento de los productos farmacéuticos pertenece a los procesos generales del servicio o establecimiento farmacéutico. En la siguiente figura se podrá observar su ubicación dentro de estos procesos.
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -35,7 +35,7 @@
           .col-lg-7.order-lg-1.order-2
             .h4 Resolución 1403 de 2007
             p #[strong Objeto]: determinar los criterios administrativos y técnicos generales del Modelo de Gestión del Servicio Farmacéutico y adoptar el Manual de Condiciones Esenciales y Procedimientos del Servicio Farmacéutico.
-            p #[strong Campo de aplicación]: establecimiento farmacéutico donde se almacenen, comercialicen, distribuyan o dispensen medicamentos y dispositivos médicos o se realice cualquier otra actividad y/o proceso del servicio farmacéutico.
+            p #[strong Campo de aplicación]: establecimiento farmacéutico donde se almacenen, comercialicen, distribuyan o dispensen medicamentos y dispositivos médicos o se realice cualquier otra actividad o proceso del servicio farmacéutico.
             .row
               .col-lg-6
                 a.anexo.mb-4(:href="obtenerLink('/downloads/Resolución_1403_de_2007.pdf')" target="_blank")

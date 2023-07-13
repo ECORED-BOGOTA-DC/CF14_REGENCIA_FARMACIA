@@ -10,12 +10,12 @@
     figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema6/img01.jpg')
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
         .BGR08.hg-02.p-4
           .row.mb-4
-            .col-lg-4.col-6
-              img(src='@/assets/curso/tema6/img02.png')
+            .col-lg-4.col-3
+              img(src='@/assets/curso/tema6/img02.svg')
           p La organización sistemática de los productos farmacéuticos dentro del establecimiento o servicio farmacéutico, tiene las siguientes ventajas:
           ul.lista-ul--color
             li
@@ -27,8 +27,8 @@
       .col-lg-4.mb-lg-0.mb-4(data-aos="fade-up")
         .BGR08.hg-02.p-4
           .row.mb-4
-            .col-lg-4.col-6
-              img(src='@/assets/curso/tema6/img03.png')
+            .col-lg-4.col-3
+              img(src='@/assets/curso/tema6/img03.svg')
           p Y en su almacenamiento se deben tener en cuenta las siguientes características:
           ul.lista-ul--color
             li
@@ -44,8 +44,8 @@
       .col-lg-4.mb-lg-0.mb-4(data-aos="fade-left")
         .BGR08.hg-02.p-4
           .row.mb-4
-            .col-lg-4.col-6
-              img(src='@/assets/curso/tema6/img04.png')
+            .col-lg-4.col-3
+              img(src='@/assets/curso/tema6/img04.svg')
           p Y dentro de los requisitos y parámetros para almacenar los productos farmacéuticos, es importante:
           ul.lista-ul--color
             li
@@ -111,7 +111,7 @@
             data-aos="fade-right"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
-            p.mb-0 Con el apoyo de la TIC (Tecnologías de la Información y la Comunicación), como lectores para los códigos de barras, se podría almacenar los embalajes por líneas, siendo el #[em software] el que decide el espacio donde debe ir el producto farmacéutico y su ubicación en todo momento. Los establecimientos que manejen grandes volúmenes de productos son los más beneficiados con estas herramientas.
+            p.mb-0 Con el apoyo de las TIC (Tecnologías de la Información y la Comunicación), como lectores para los códigos de barras, se podría almacenar los embalajes por líneas, siendo el #[em software] el que decide el espacio donde debe ir el producto farmacéutico y su ubicación en todo momento. Los establecimientos que manejen grandes volúmenes de productos son los más beneficiados con estas herramientas.
 
     .row.justify-content-center.mb-4
       .col-lg-8.order-lg-1.order-2
