@@ -9,21 +9,21 @@
     
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img01.png")
+        img(src="@/assets/curso/tema1/img01.png" alt="Imagen decorativa")
       .col-lg-9(data-aos="fade-left")
         p Es un proceso general basado en un conjunto de actividades que tiene como objetivo principal el cuidado y la conservación de las especificaciones y características técnicas de los productos farmacéuticos almacenados en los establecimientos y servicios farmacéuticos.
         p.mb-0 El proceso de almacenamiento de los productos farmacéuticos pertenece a los procesos generales del servicio o establecimiento farmacéutico. En la siguiente figura se podrá observar su ubicación dentro de estos procesos.
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 1
+        h5 Figura 1.
         span Procesos generales del servicio o establecimiento farmacéutico
       figure(data-aos="zoom-in")
-        img(src="@/assets/curso/tema1/img02.svg")
+        img(src="@/assets/curso/tema1/img02.svg" alt="Muestra procesos del servicio farmacéutico: Selección, adquisición, recepción, almacenamiento, distribución y dispensación")
     
     .row.justify-content-center.mb-4
       .col-lg-1.col-2.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img03.png")
+        img(src="@/assets/curso/tema1/img03.png" alt="Imagen decorativa")
       .col-lg-11(data-aos="fade-left")
         p.mb-0 Como se pudo observar en la figura anterior, el proceso de almacenamiento se encuentra entre los procesos de recepción y distribución, siendo el puente entre las actividades donde se reciben los productos farmacéuticos que luego serán distribuidos de manera interna o externa, dependiendo del tipo de distribución y el establecimiento farmacéutico.
 
@@ -45,7 +45,7 @@
                     p #[strong Anexo]. Resolución 1403 de 2007.
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
             .tarjeta.color-secundario.p-4
-              img(src="@/assets/curso/tema1/img05.png")
+              img(src="@/assets/curso/tema1/img05.png" alt="Imagen decorativa")
       .py-4.py-lg-5(titulo="Decreto 780 de 2016" :icono="require('@/assets/curso/tema1/img06.png')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
@@ -60,7 +60,7 @@
                     p #[strong Anexo]. Decreto 780 de 2016
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
             .tarjeta.color-secundario.p-4
-              img(src="@/assets/curso/tema1/img07.png")
+              img(src="@/assets/curso/tema1/img07.png" alt="Imagen decorativa")
       
 </template>
 

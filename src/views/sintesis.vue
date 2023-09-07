@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra diagrama de síntesis de buenas prácticas de almacenamiento de productos farmacéuticos, resume que  son fundamentales para garantizar la calidad, eficacia y seguridad de los medicamentos y otros productos de salud. En este componente formativo, se abordaron varios aspectos esenciales relacionados con el almacenamiento adecuado.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -11,10 +11,10 @@
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 2
+        h5 Figura 2.
         span Etapas planificación del proceso de almacenamiento
       figure(data-aos="zoom-in")
-        img(src="@/assets/curso/tema2/img01.svg")
+        img(src="@/assets/curso/tema2/img01.svg" alt="Muestra etapas planificación del proceso de almacenamiento:<br>•Selección del lugar. <br>•Diseño de las instalaciones.<br>•Generar criterios, procedimientos y recursos.<br>•Inventarios y rotación de productos.")
     
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -44,7 +44,7 @@
                 i.fas.fa-check-circle(style="color: #00BCD4")
                 | Alejados de calderas, depósitos de basuras, cocinas (contaminación cruzada), estacionamientos y centrales de esterilización.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img03.png")
+            img(src="@/assets/curso/tema2/img03.png" alt="Imagen decorativa")
       .py-4.py-lg-5(titulo="Área de almacenamiento" :icono="require('@/assets/curso/tema2/img04.png')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
@@ -63,7 +63,7 @@
                 i.fas.fa-check-circle(style="color: #00BCD4")
                 | El almacén central debe estar ubicado en el primer piso y ser equidistante a los servicios que atiendan.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema2/img05.png")
+            img(src="@/assets/curso/tema2/img05.png" alt="Imagen decorativa")
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -74,41 +74,41 @@
     .BG01.mb-5(data-aos="zoom-in")
       SlyderF(columnas="col-12")
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img06.jpg')
+          img(src='@/assets/curso/tema2/img06.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Recepción
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img07.jpg')
+          img(src='@/assets/curso/tema2/img07.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Cuarentena
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img08.jpg')
+          img(src='@/assets/curso/tema2/img08.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Almacenamiento
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img09.jpg')
+          img(src='@/assets/curso/tema2/img09.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Medicamentos de control especial
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img10.jpg')
+          img(src='@/assets/curso/tema2/img10.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Despachos
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img11.jpg')
+          img(src='@/assets/curso/tema2/img11.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Medicamentos vencidos o deteriorados
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img12.jpg')
+          img(src='@/assets/curso/tema2/img12.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Manejo de residuos
         .row.justify-content-center
-          img(src='@/assets/curso/tema2/img13.jpg')
+          img(src='@/assets/curso/tema2/img13.jpg' alt="Imagen decorativa")
           .BG02.p-2
             .h4.text-center.mb-0 Administrativa
     
     .row.justify-content-end.align-items-end.pt-lg-5.mb-4
       .col-lg-3.col-6.img-01(data-aos="fade-right")
-        img(src="@/assets/curso/tema2/img14.svg")
+        img(src="@/assets/curso/tema2/img14.svg" alt="Imagen decorativa")
       .col-lg-12.BG03.p-4(data-aos="fade-left")
         .row.justify-content-end
           .col-lg-8
@@ -142,7 +142,7 @@
                 span(style="color: #000000; font-weight: 700 ") Tabla de Colores
                 .indicador--click(v-if="mostrarIndicador")
         .col-lg-5
-          img(src='@/assets/curso/tema2/img15.png')
+          img(src='@/assets/curso/tema2/img15.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Distribución")
         .col-lg-5
           p La figura muestra un ejemplo de la distribución de las áreas de un servicio farmacéutico, incluyendo su identificación con colores.
@@ -152,7 +152,7 @@
                 span(style="color: #000000; font-weight: 700 ") Distribución de las Áreas
                 .indicador--click(v-if="mostrarIndicador")
         .col-lg-5
-          img(src='@/assets/curso/tema2/img16.png')
+          img(src='@/assets/curso/tema2/img16.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Pisos")
         .col-lg-5
           p Los pisos del servicio o establecimiento farmacéutico deben cumplir con los siguientes requisitos:
@@ -187,7 +187,7 @@
 
         .col-lg-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img17.png')
+            img(src='@/assets/curso/tema2/img17.png' alt="Imagen decorativa")
           .cajon.color-secundario.p-4
             .h5.mb-0 Los productos farmacéuticos no deben estar en contacto directo con el piso. Para ello, se deben utilizar estibas o estanterías que cumplan con requisitos de resistencia, y materiales que no propaguen la contaminación e incendios.
       .row.justify-content-center(titulo="Temperatura y humedad")
@@ -207,7 +207,7 @@
                 span(style="color: #000000; font-weight: 700 ") Tabla rangos de temperatura
                 .indicador--click(v-if="mostrarIndicador")
         .col-lg-5
-          img(src='@/assets/curso/tema2/img18.png')
+          img(src='@/assets/curso/tema2/img18.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Cadena de frío")
         .col-lg-5
           p Los productos farmacéuticos que necesitan ser refrigerados deben ser llevados a:
@@ -234,15 +234,15 @@
           .row
             .col-auto
               a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
-                span(style="color: #000000; font-weight: 700 ") Cadena de frío de las vacunas
+                span(style="color: #12263F; font-weight: 700 ") Cadena de frío de las vacunas
                 .indicador--click(v-if="mostrarIndicador")
         .col-lg-5
-          img(src='@/assets/curso/tema2/img19.png')
+          img(src='@/assets/curso/tema2/img19.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Refrigeración")
         .col-lg-5
           p Los cuartos fríos son utilizados cuando se manejan volúmenes muy grandes de productos farmacéuticos que requieren temperaturas muy específicas como se verá en la siguiente figura.
         .col-lg-5
-          img(src='@/assets/curso/tema2/img20.png')
+          img(src='@/assets/curso/tema2/img20.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Refrigeración vacunas")
         .col-lg-5
           p Uno de los productos farmacéuticos que requiere mayor cuidado en su manipulación y almacenamiento son los biológicos (vacunas).
@@ -250,7 +250,7 @@
           ul.lista-ul--color
             li
               i.far.fa-check-circle(style="color: #00BCD4")
-              | <a style="font-weight: 900">Su empaque:</a> su dimensión determina las condiciones de su almacenamiento y transporte.
+              p.mb-0 <a style="font-weight: 900">Su empaque:</a> su dimensión determina las condiciones de su almacenamiento y transporte.
             li
               i.far.fa-check-circle(style="color: #00BCD4")
               | Lugar donde deben ir almacenadas en la nevera.
@@ -258,7 +258,7 @@
               i.far.fa-check-circle(style="color: #00BCD4")
               | Los elementos que sirven como coadyuvantes para su conservación.
         .col-lg-5
-          img(src='@/assets/curso/tema2/img21.png')
+          img(src='@/assets/curso/tema2/img21.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Almacenamiento vacunas")
         .col-lg-5
           p La identificación de los productos farmacéuticos (vacunas) incluye:
@@ -281,7 +281,7 @@
           .cajon.color-secundario.p-4
             .h5.mb-0 No se deben almacenar otros productos diferentes a las vacunas en las neveras.
         .col-lg-5
-          img(src='@/assets/curso/tema2/img22.png')
+          img(src='@/assets/curso/tema2/img22.png' alt="Imagen decorativa")
 
     ModalA(:abrir-modal.sync="modal1")
       .tabla-a.color-acento-contenido
@@ -328,7 +328,7 @@
               p En la imagen se muestran sus áreas.
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-2.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-2.png' alt="Muestra depósitos de drogas:<br>Administrativa delimitada.<br>De recepción.<br>Cuarentena.<br>Almacenamiento de acuerdo a los productos.<br>Almacenamiento de medicamentos de control especial.<br>Almacenamiento de materias primas y que requieran cadena de frío.<br>Almacenamiento para destrucción o desnaturalización.<br>Almacenamiento rechazado, devueltos y retirados del mercado.<br>De alistamiento y despacho.<br>Reenvase de materias primas en caso de realizarlo<br>Manejo y disposición de residuos reglamentación vigente." style="max-width: 660px")
           
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
@@ -336,7 +336,7 @@
               p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción del reenvase de materias primas, pues no lo tienen autorizado.
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-3.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-3.png' alt="Imagen decorativa" style="max-width: 660px")
           
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
@@ -344,7 +344,7 @@
               p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-4.png' alt="Imagen decorativa" style="max-width: 660px")
 
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
@@ -365,7 +365,7 @@
                   | El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-4.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-4.png' alt="Administrativa" style="max-width: 660px")
           
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
@@ -373,7 +373,7 @@
               p Este servicio debe contar las áreas mostradas en la imagen.
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-5.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-5.png' alt="Muestra listado de servicios farmacéuticos hospitalarios de baja complejidad:<br>Administrativa delimitada.<br>De recepción.<br>Cuarentena.<br>Almacenamiento de acuerdo a los productos.<br>Almacenamiento de medicamentos de control especial.<br>Dispensación.<br>Almacenamiento para destrucción o desnaturalización.<br>Almacenamiento rechazado, devueltos y retirados del mercado.<br>Manejo y disposición de residuos reglamentación vigente." style="max-width: 660px")
 
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
@@ -381,7 +381,7 @@
               p Además de las áreas mencionadas para el servicio farmacéutico hospitalario de baja complejidad, el servicio farmacéutico hospitalario de mediana y alta complejidad, debe tener las siguientes áreas adicionales:
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img.mx-auto(src='@/assets/curso/tema2/img-6.png' style="max-width: 660px")
+                img.mx-auto(src='@/assets/curso/tema2/img-6.png' alt="Imagen decorativa" style="max-width: 660px")
     
     ModalA(:abrir-modal.sync="modal3")
       .tabla-a.color-acento-contenido
@@ -409,7 +409,7 @@
 
     ModalA(:abrir-modal.sync="modal4")
       p-4
-        img(src='@/assets/curso/tema2/img23.svg')
+        img(src='@/assets/curso/tema2/img23.svg' alt="Muestra cadena de frio: vacunas, gel refrigerante, embalaje térmico, transporte refrigerado, almacenamiento, monitoreo inteligente, distribución")
     
     p Y siempre se deben tener en cuenta las siguientes características y requisitos:
 
@@ -435,7 +435,7 @@
                 i.far.fa-check-circle(style="color: #7E5EE3")
                 | No debe tener sustancias tóxicas, irritantes o inflamables, los materiales que se utilicen para pintarlas.
           .col-lg-6.col-10
-            img(src='@/assets/curso/tema2/img24.png')
+            img(src='@/assets/curso/tema2/img24.png' alt="Imagen decorativa")
       .BGR02.p-4(titulo="Techos y cielo raso")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -457,14 +457,14 @@
                 i.far.fa-check-circle(style="color: #7E5EE3")
                 | No debe tener sustancias tóxicas, irritantes o inflamables, los materiales que se utilicen para su fabricación o instalación.
           .col-lg-6.col-10
-            img(src='@/assets/curso/tema2/img25.png')
+            img(src='@/assets/curso/tema2/img25.png' alt="Imagen decorativa")
       .BGR02.p-4(titulo="Iluminación")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
             h4 Iluminación
             p Se puede contar con iluminación natural o artificial que permita la conservación adecuada, identificación de los productos farmacéuticos y el buen manejo de la documentación.
           .col-lg-6.col-10
-            img(src='@/assets/curso/tema2/img26.png')
+            img(src='@/assets/curso/tema2/img26.png' alt="Imagen decorativa")
       .BGR02.p-4(titulo="Ventilación")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -474,7 +474,7 @@
               p.mb-0 Nota: no se debe malinterpretar o tomar como ventilación natural el hecho de dejar las ventanas o puertas abiertas, porque podrían contaminar los productos farmacéuticos.
             p.mb-0 Dicha contaminación se puede presentar por la presencia de gases como el CO<sub>2</sub> (gas carbónico), el CO (monóxido de carbono) y el vapor de agua, entre otros.
           .col-lg-6.col-10
-            img(src='@/assets/curso/tema2/img27.png')
+            img(src='@/assets/curso/tema2/img27.png' alt="Imagen decorativa")
       .BGR02.p-4(titulo="Condiciones ambientales")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -487,14 +487,14 @@
                 i.far.fa-check-circle(style="color: #7E5EE3")
                 | Evitar contacto directo de la luz solar con los productos farmacéuticos.
           .col-lg-6.col-10
-            img(src='@/assets/curso/tema2/img28.png')
+            img(src='@/assets/curso/tema2/img28.png' alt="Imagen decorativa")
 
     p Ante posibles inconvenientes, es indispensable contar con un plan de contingencia para garantizar que las condiciones de conservación de los productos farmacéuticos no se alteren.
 
     .tarjeta.color-secundario.p-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png")
+          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

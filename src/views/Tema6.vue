@@ -8,14 +8,14 @@
       h1 Requisitos para la ubicación y organización de los productos farmacéuticos
     
     figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema6/img01.jpg')
+      img(src='@/assets/curso/tema6/img01.jpg' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
         .BGR08.hg-02.p-4
           .row.mb-4
             .col-lg-4.col-3
-              img(src='@/assets/curso/tema6/img02.svg')
+              img(src='@/assets/curso/tema6/img02.svg' alt="Imagen decorativa")
           p La organización sistemática de los productos farmacéuticos dentro del establecimiento o servicio farmacéutico, tiene las siguientes ventajas:
           ul.lista-ul--color
             li
@@ -28,7 +28,7 @@
         .BGR08.hg-02.p-4
           .row.mb-4
             .col-lg-4.col-3
-              img(src='@/assets/curso/tema6/img03.svg')
+              img(src='@/assets/curso/tema6/img03.svg' alt="Imagen decorativa")
           p Y en su almacenamiento se deben tener en cuenta las siguientes características:
           ul.lista-ul--color
             li
@@ -45,7 +45,7 @@
         .BGR08.hg-02.p-4
           .row.mb-4
             .col-lg-4.col-3
-              img(src='@/assets/curso/tema6/img04.svg')
+              img(src='@/assets/curso/tema6/img04.svg' alt="Imagen decorativa")
           p Y dentro de los requisitos y parámetros para almacenar los productos farmacéuticos, es importante:
           ul.lista-ul--color
             li
@@ -64,41 +64,41 @@
     ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema6/img05.png')
+          img(src='@/assets/curso/tema6/img05.png' alt="Imagen decorativa")
 
       .row.justify-content-center.BGR02.p-3(x="8%" y="76%" numero="1")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img06.png')
+          img(src='@/assets/curso/tema6/img06.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 1. 
           p.mb-0 Ampollas, empezando por la letra A (ampicilina, aminofilina, …), por la B (betametazona, …) y así sucesivamente.
       .row.justify-content-center.BGR02.p-3(x="18%" y="50%" numero="2")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img07.png')
+          img(src='@/assets/curso/tema6/img07.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 2. 
           p.mb-0 Jarabes.
       .row.justify-content-center.BGR02.p-3(x="30%" y="16%" numero="3")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img08.png')
+          img(src='@/assets/curso/tema6/img08.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 3. 
           p.mb-0 Tabletas o cápsulas.  Por la gran rotación de estos productos se mantiene mayor cantidad de existencia física.
       .row.justify-content-center.BGR02.p-3(x="52%" y="45%" numero="4")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img09.png')
+          img(src='@/assets/curso/tema6/img09.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 4. 
           p.mb-0 Productos de menor rotación como inhaladores, cremas tópicas (en orden alfabético).
       .row.justify-content-center.BGR02.p-3(x="66%" y="62%" numero="5")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img10.png')
+          img(src='@/assets/curso/tema6/img10.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 5. 
           p.mb-0 Soluciones parentales de gran volumen (mayor a 100 ml).
       .row.justify-content-center.BGR02.p-3(x="83%" y="20%" numero="6")
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema6/img11.png')
+          img(src='@/assets/curso/tema6/img11.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 6. 
           p.mb-0 Bajo llave se almacenan los medicamentos de control especial y alto costo, siendo responsabilidad del auxiliar de farmacia su control.
@@ -120,7 +120,7 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 Es de vital importancia que cada producto esté identificado con su código de barras, el cual contiene su información.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema6/img13.svg')
+        img(src='@/assets/curso/tema6/img13.svg' alt="Imagen decorativa")
 
 
 

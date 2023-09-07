@@ -16,7 +16,7 @@
             .h4 Pirámide documental
             p En la pirámide se relacionan los documentos necesarios para el manejo adecuado y buenas prácticas del proceso de almacenamiento.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema5/img02.svg")
+            img(src="@/assets/curso/tema5/img02.svg" alt="Muestra pirámide con lo siguiente:<br>Manual<br>Políticas<br>Procedimientos<br>Instructivos<br>Registros")
       .py-4.py-lg-5(titulo="Requerimientos documentales" :icono="require('@/assets/curso/tema5/img03.png')")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
@@ -41,7 +41,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png")
+          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -56,7 +56,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png")
+          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -71,7 +71,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png")
+          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -87,7 +87,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png")
+          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

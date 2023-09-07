@@ -9,7 +9,7 @@
     
     .row.justify-content-end.align-items-end.pt-lg-5.mb-4
       .col-lg-4.col-6.img-02(data-aos="fade-right")
-        img.w-85(src="@/assets/curso/tema7/img01.svg")
+        img.w-85(src="@/assets/curso/tema7/img01.svg" alt="Imagen decorativa")
       .col-lg-12.BG03.p-4(data-aos="fade-left")
         .row.justify-content-end
           .col-lg-8
@@ -50,7 +50,7 @@
               | Verificar que estos vengan en envases ámbar.
           p #[strong Ejemplo]: clozapina, ranitidina, azitromicina, ibuprofeno, mebendazol, entre otros.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema7/img02.png")
+          img(src="@/assets/curso/tema7/img02.png" alt="Imagen decorativa")
       .row.justify-content-center(titulo="Temperatura")
         .col-lg-6.order-lg-1.order-2
           ul.lista-ul--color
@@ -65,12 +65,12 @@
               | Algunos fármacos termolábiles son: el A.S.A. tabletas, antibióticos, sueros, acetaminofén, entre otros.
 
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema7/img03.png")
+          img(src="@/assets/curso/tema7/img03.png" alt="Imagen decorativa")
       .row.justify-content-center(titulo="Cadena de frío")
         .col-lg-6.order-lg-1.order-2
           p Para el control de la cadena de frío, los refrigeradores deben estar a la sombra y lejos de fuente de calor, separados de techos y paredes mínimo 15 cm, bien nivelados y conectados directamente a la pared.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema7/img04.png")
+          img(src="@/assets/curso/tema7/img04.png" alt="Imagen decorativa")
       .row.justify-content-center(titulo="Humedad")
         .col-lg-6.order-lg-1.order-2
           ul.lista-ul--color
@@ -90,7 +90,7 @@
               i.far.fa-check-circle(style="color: #7E5EE3")
               | Algunos fármacos que se alteran con la humedad son: metronidazol, preparados oftálmicos sulfamídicos, tinidazol, dapsona, sales de rehidratación.
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema7/img05.png")
+          img(src="@/assets/curso/tema7/img05.png" alt="Imagen decorativa")
 
     p Y dentro de los instrumentos utilizados para realizar los controles ambientales se encuentran los siguientes tipos de termohigrómetro:
 
@@ -115,7 +115,7 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Memorización de máximos y mínimos para humedad y temperatura.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img07.png")
+            img(src="@/assets/curso/tema7/img07.png" alt="Imagen decorativa")
       .py-4.py-lg-5(titulo="Análogo" :icono="require('@/assets/curso/tema7/img08.png')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
@@ -139,7 +139,7 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | #[strong Indicación:] medición de temperatura y humedad relativa.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema7/img09.png")
+            img(src="@/assets/curso/tema7/img09.png" alt="Imagen decorativa")
 
     p Para conocer más sobre cómo se interpretan las mediciones de este instrumento, se invita ver el video #[em Cadena/red fría y la importancia de tener un registro de temperatura y humedad en la farmacia] que se encuentra en el material complementario.
     
@@ -176,7 +176,7 @@
               i.far.fa-check-circle(style="color: #00BCD4")
               | Diseñar programa de aseo, limpieza y desinfección de las áreas, definiendo fechas, responsables y dejando evidencia de su realización en los formatos indicados.
         .col-lg-3.col-6.img-03
-          img(src="@/assets/curso/tema7/img10.png")
+          img(src="@/assets/curso/tema7/img10.png" alt="Imagen decorativa")
     
     separador
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -191,7 +191,7 @@
             h4 Área especial de almacenamiento
             p Dicha área debe estar separada de las demás y evitar que estos productos se puedan distribuir o dispensar.
           .col-lg-5.col-10
-            img(src='@/assets/curso/tema7/img11.png')
+            img(src='@/assets/curso/tema7/img11.png' alt="Imagen decorativa")
       .BGR02.p-4(titulo="Condiciones para la reubicación de los productos farmacéuticos")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -213,7 +213,7 @@
                 i.far.fa-check-circle(style="color: #7E5EE3")
                 | Han sido evaluados y autorizados por el director técnico del establecimiento farmacéutico.
           .col-lg-5.col-10.mb-4
-            img(src='@/assets/curso/tema7/img12.png')
+            img(src='@/assets/curso/tema7/img12.png' alt="Imagen decorativa")
           .col-lg-11
             p.mb-0 Si el producto farmacéutico no cumple con las condiciones anteriores debe ser destruido o desnaturalizado.
 
@@ -223,14 +223,11 @@
 
     .row.justify-content-center
       .col-lg-4.col-8.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema7/img13.png')
+        img(src='@/assets/curso/tema7/img13.png' alt="Imagen decorativa")
       .col-lg-8
         p El establecimiento o servicio farmacéutico debe contar con una estructura documental donde estén definidos los criterios y especificaciones que permitan realizar seguimiento a las fechas de vencimiento de los productos farmacéuticos, para evitar que impacten en la salud del usuario y para avisar con la suficiente antelación la devolución o cambio al proveedor, de acuerdo con lo negociado previamente.
         .cajon.color-secundario.p-4
           p.mb-0 Se debe apoyar en la metodología FEFO (primeros en vencer primeros en salir) y garantizar que se informará al proveedor con mínimo con tres meses de anticipación.
- 
-
-
 
 </template>
 

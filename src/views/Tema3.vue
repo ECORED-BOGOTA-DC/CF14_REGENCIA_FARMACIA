@@ -8,13 +8,13 @@
       h1 Medidas de seguridad
     
     figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema3/img01.jpg')
+      img(src='@/assets/curso/tema3/img01.jpg' alt="Imagen decorativa")
     
     p Para descartar futuros problemas legales de carácter administrativo, es aconsejable implementar algunas medidas de seguridad con miras al correcto manejo del almacén, a saber:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema3/img02.svg')
+        img(src='@/assets/curso/tema3/img02.svg' alt="Imagen decorativa")
       .col-lg-8
         ul.lista-ul--color
           li

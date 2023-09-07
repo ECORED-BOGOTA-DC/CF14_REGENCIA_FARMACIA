@@ -162,7 +162,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/331502_CF14_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -177,42 +177,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Contextualización del proceso de almacenamiento',
-      referencia:
-        'Presidencia de la República. (2016). Decreto 0780 de 2016. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. [6 de mayo de 2016].',
-      tipo: 'Decreto',
-      descarga: '/downloads/Decreto_0780_de_2016.pdf',
-    },
-    {
-      tema: 'Contextualización del proceso de almacenamiento',
-      referencia:
-        'Ministerio de Salud. (2007). Resolución 1403 de 2007. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras Disposiciones. [14 de mayo de 2007].',
-      tipo: 'Resolución',
-      descarga: '/downloads/Resolución_1403_de_2007.pdf',
-    },
-    {
-      tema: 'Requisitos documentales en las buenas prácticas de almacenamiento',
-      referencia:
-        'Universidad Nacional de Colombia - Sede Palmira. (2016). Manual de procedimientos para la gestión integral de residuos hospitalarios y similares de Unisalud. Universidad Nacional de Colombia.',
-      tipo: 'Manual',
-      descarga: '/downloads/Ejemplo_Manual_PGIHRS.pdf',
-    },
-    {
-      tema: 'Devoluciones de los productos farmacéuticos',
-      referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2009). Resolución 0371 de 2009. Por la cual se establecen los elementos que deben ser considerados en los Planes de Gestión de Devolución de Productos Posconsumo de Fármacos o Medicamentos Vencidos. [26 de febrero de 2009].',
-      tipo: 'Resolución',
-      descarga:
-        '/downloads/Resolucion_371_de_2009-Devolucion_Medicamentos_Vencidos.pdf',
-    },
-    {
-      tema: 'Normatividad ambiental y manejo de residuos peligrosos',
-      referencia:
-        'Ministerio de Salud. (2014). Decreto 0351 de 2014. Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. [19 de febrero de 2014].',
-      tipo: 'Decreto',
-      descarga: '/downloads/Decreto_0351_2014.pdf',
-    },
     {
       tema: 'Controles de factores ambientales',
       referencia:
@@ -385,7 +349,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yuly Andrea Rey Quiñonez ',
+          nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Diseñador web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',

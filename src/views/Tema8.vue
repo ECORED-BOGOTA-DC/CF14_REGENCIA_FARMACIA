@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-2(data-aos="fade-right")
-        img(src="@/assets/curso/tema8/img01.png")
+        img(src="@/assets/curso/tema8/img01.png" alt="Imagen decorativa")
       .col
         p Para trasladar y realizar la entrega de los productos farmacéuticos, se debe tener presente los requisitos que están determinados en la Resolución 1403 de 2007, en el Código de Comercio y otras que regulan el transporte de sustancias como los son los productos farmacéuticos
         p.mb-0 Se puede tener las dos alternativas: que el transporte sea propio o de un tercero; en ambos casos se debe garantizar el cumplimiento con la normatividad en cuanto al transporte.
@@ -56,7 +56,7 @@
                   span 3
                 | Pictogramas con la información de su manejo y clasificación.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema8/img02.png")
+            img(src="@/assets/curso/tema8/img02.png" alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Integridad")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
@@ -79,7 +79,7 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Evitar la confusión y la contaminación.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema8/img03.png")
+            img(src="@/assets/curso/tema8/img03.png" alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Condiciones")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
@@ -96,7 +96,7 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Evidenciar el cumplimiento de los requisitos de aquellos medicamentos que requieran condiciones de almacenamiento especiales.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema8/img04.png")
+            img(src="@/assets/curso/tema8/img04.png" alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Pictogramas")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
@@ -109,11 +109,11 @@
                   span(style="color: #000000; font-weight: 700 ") Pictogramas
                   .indicador--click(v-if="mostrarIndicador")
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema8/img05.png")
+            img(src="@/assets/curso/tema8/img05.png" alt="Muestra imagen con pictogramas utilizados para medicamentos,  símbolo radioactividad, principio activo, gas medicinal y letras.")
 
     ModalA(:abrir-modal.sync="modal1")
       .p-4
-        img(src="@/assets/curso/tema8/img06.svg")
+        img(src="@/assets/curso/tema8/img06.svg" alt="Imagen decorativa")
 
 
 </template>

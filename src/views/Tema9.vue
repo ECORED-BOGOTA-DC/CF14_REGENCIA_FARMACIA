@@ -8,19 +8,18 @@
       h1 Normatividad ambiental y manejo de residuos peligrosos
     
     figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema9/img01.jpg')
+      img(src='@/assets/curso/tema9/img01.jpg' alt="Imagen decorativa")
     
     p Debido a que gran parte de los productos farmacéuticos, en especial los medicamentos, son catalogados como residuos químicos peligrosos, se hace necesario darles un correcto manejo y disposición final a estos.
     p.mb-5 A continuación, se presenta el ciclo de vida de un medicamento y cómo se debe hacer la disposición final de este con el objetivo de reducir el impacto en la flora y la fauna.
 
     .row.justify-content-center.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 4
+        h5 Figura 4.
         span Ciclo de vida de un medicamento
       .col-lg-8
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema9/img02.svg")
-      
+          img(src="@/assets/curso/tema9/img02.svg" alt="Muestra ciclo de vida de un medicamento: <br>Prescripción<br>Dispensación<br>Atención farmacéutica - Uso - Excreción<br>Disposición final")  
 
 </template>
 

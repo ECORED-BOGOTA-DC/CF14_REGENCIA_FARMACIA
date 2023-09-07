@@ -12,11 +12,11 @@
 
     .row.justify-content-center
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 3
+        h5 Figura 3.
         span Requisitos del talento humano
       .col-lg-8
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema4/img01.svg")
+          img(src="@/assets/curso/tema4/img01.svg" alt="Muestra requisitos del talento humano:<br>•Calcular las necesidades del personal según el volumen de trabajo.<br>•El personal debe manejar los conceptos de kárdex.<br>•Debe tener conocimientos sobre el manejo de productos farmacéuticos y su impacto en la salud. <br>•Debe contar con dotación adecuada para realizar sus laborales (overol, guantes, gafas, etc.).")
 
 
 
