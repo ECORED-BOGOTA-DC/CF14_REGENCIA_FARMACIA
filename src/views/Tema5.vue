@@ -77,7 +77,7 @@
             .col.mb-3.mb-sm-0
               h4.text-ciel.mb-4 Almacenamiento de productos farmacéuticos
               p.text-white.mb-2 #[strong Función]: definir las actividades que se realizan en el proceso.
-              p.text-white.mb-2 #[strong Ejemplos]: Procedimiento almacenamiento de productos farmacéuticos. 
+              p.text-white.mb-2 #[strong Ejemplos]: procedimiento almacenamiento de productos farmacéuticos. 
               p.text-white.mb-2 Procedimiento de limpieza y desinfección.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Proceso_Almacenamiento.pdf')" target="_blank")
@@ -93,7 +93,7 @@
             .col.mb-3.mb-sm-0
               h4.text-ciel.mb-4 Control de lotes y fechas de vencimiento de productos farmacéuticos
               p.text-white.mb-2 #[strong Función]: permiten dejar evidencia de la realización de una actividad o tarea.
-              p.text-white.mb-2 #[strong Ejemplos]: Matriz de medicamentos, dispositivos médicos e insumos.
+              p.text-white.mb-2 #[strong Ejemplos]: matriz de medicamentos, dispositivos médicos e insumos.
               p.text-white.mb-2 Acta de recepción técnica y administrativa de productos farmacéuticos.
               p.text-white.mb-2 Fechas de vencimiento de productos farmacéuticos.
               p.text-white.mb-2 Acta de control de lotes y fechas de vencimiento de productos farmacéuticos.

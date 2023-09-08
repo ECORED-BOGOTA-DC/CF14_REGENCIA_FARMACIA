@@ -341,7 +341,7 @@
           .row.justify-content-center
             .col-lg-5.order-lg-1.order-2
               .h5 Droguerías
-              p Las áreas son las mismas mencionadas para farmacias-droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
+              p Las áreas son las mismas mencionadas para farmacias, droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
             .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img.mx-auto(src='@/assets/curso/tema2/img-4.png' alt="Imagen decorativa" style="max-width: 660px")
@@ -359,7 +359,7 @@
                   | El área de cuarentena se divide en I naranja y II negra para el almacenamiento adecuado de los productos y evitar confusiones.
                 li
                   i.fas.fa-atom(style="color: #7E5EE3")
-                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medica-mentos con dispositivos o con fitoterapéuticos, etc.
+                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medicamentos con dispositivos o con fitoterapéuticos, etc.
                 li
                   i.fas.fa-atom(style="color: #7E5EE3")
                   | El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
