@@ -1,8 +1,8 @@
-# **ecoredsena-base v7.0.1**
+# **Buenas prácticas de almacenamiento de los productos farmacéuticos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://github.com/ECORED-BOGOTA-DC/CF14_REGENCIA_FARMACIA](https://github.com/ECORED-BOGOTA-DC/CF14_REGENCIA_FARMACIA)
 
 #
 

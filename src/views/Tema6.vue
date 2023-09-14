@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Requisitos para la ubicación y organización de los productos farmacéuticos
@@ -58,8 +58,8 @@
               i.far.fa-check-circle(style="color: #00BCD4")
               | Fechas de vencimiento.
 
-    p No se puede definir cuál de los métodos es el más adecuado, porque incluso se puede utilizar la combinación de varios de ellos según las necesidades del establecimiento, buscando la optimización del espacio y que el tipo de método elegido sea eficaz y eficiente en el tiempo.
-    p En las siguientes figuras se presenta un ejemplo de cómo se podrían almacenar los productos farmacéuticos:
+    p(data-aos="fade-right") No se puede definir cuál de los métodos es el más adecuado, porque incluso se puede utilizar la combinación de varios de ellos según las necesidades del establecimiento, buscando la optimización del espacio y que el tipo de método elegido sea eficaz y eficiente en el tiempo.
+    p.mb-5(data-aos="fade-right") En las siguientes figuras se presenta un ejemplo de cómo se podrían almacenar los productos farmacéuticos:
 
     ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
       template(v-slot:imagen)
@@ -115,14 +115,12 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8.order-lg-1.order-2
-        p La rotación de los productos es un factor determinante porque evita el vencimiento de estos en el establecimiento, y para lograr esto, los productos farmacéuticos deben ubicarse en las estanterías, teniendo en cuenta su tamaño, y las fechas de vencimiento. Esto se debe realizar apoyándose en el método FEFO (sigla en inglés), en español conocido como método PEPS (primero que entra es lo primero que sale), basándose en la fecha de vencimiento del producto.
-        p Al realizar la recepción de los productos farmacéuticos, se debe ubicar el producto en el lugar que le corresponde (ubicar los que tengan fecha de vencimiento similar, juntos) y se reporta su ubicación en el sistema. 
-        .cajon.color-acento-contenido.p-4
+        p(data-aos="fade-right") La rotación de los productos es un factor determinante porque evita el vencimiento de estos en el establecimiento, y para lograr esto, los productos farmacéuticos deben ubicarse en las estanterías, teniendo en cuenta su tamaño, y las fechas de vencimiento. Esto se debe realizar apoyándose en el método FEFO (sigla en inglés), en español conocido como método PEPS (primero que entra es lo primero que sale), basándose en la fecha de vencimiento del producto.
+        p(data-aos="fade-right") Al realizar la recepción de los productos farmacéuticos, se debe ubicar el producto en el lugar que le corresponde (ubicar los que tengan fecha de vencimiento similar, juntos) y se reporta su ubicación en el sistema. 
+        .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           p.mb-0 Es de vital importancia que cada producto esté identificado con su código de barras, el cual contiene su información.
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema6/img13.svg' alt="Imagen decorativa")
-
-
 
 </template>
 

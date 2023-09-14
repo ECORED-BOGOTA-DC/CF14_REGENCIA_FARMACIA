@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Talento humano y dotación
     
-    p El talento humano requerido para la implementación y continuidad de las buenas prácticas de almacenamiento es fundamental debido a que son de gran importancia para la estructura, organización y planificación del volumen de trabajo del almacén. 
-    p.mb-5 Para su selección y adecuada realización de sus funciones, se deben tener en cuenta los siguientes aspectos:
+    p(data-aos="fade-right") El talento humano requerido para la implementación y continuidad de las buenas prácticas de almacenamiento es fundamental debido a que son de gran importancia para la estructura, organización y planificación del volumen de trabajo del almacén. 
+    p.mb-5(data-aos="fade-right") Para su selección y adecuada realización de sus funciones, se deben tener en cuenta los siguientes aspectos:
 
     .row.justify-content-center
       .titulo-sexto.color-acento-botones(data-aos="fade-right")

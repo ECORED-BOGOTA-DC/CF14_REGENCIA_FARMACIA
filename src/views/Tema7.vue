@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Controles del proceso de almacenamiento de productos farmacéuticos
@@ -29,16 +29,16 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Fechas de vencimiento.
 
-    p A continuación, se conocerá más sobre cada uno de ellos.
+    p(data-aos="fade-right") A continuación, se conocerá más sobre cada uno de ellos.
 
     separador
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 7.1 Controles de factores ambientales
 
-    p Con el objetivo de mantener las condiciones ambientales de almacenamiento de los productos farmacéuticos, se deben considerar características que tengan relación con #[strong la luz, temperatura, cadena de frío y humedad].
-    p El siguiente esquema representa los controles que aplican a cada uno de los cuatro parámetros:
+    p(data-aos="fade-right") Con el objetivo de mantener las condiciones ambientales de almacenamiento de los productos farmacéuticos, se deben considerar características que tengan relación con #[strong la luz, temperatura, cadena de frío y humedad].
+    p.mb-5(data-aos="fade-right") El siguiente esquema representa los controles que aplican a cada uno de los cuatro parámetros:
  
-    AcordionA.mb-5(tipo="a" clase-tarjeta="BGR09" data-aos="fade-up")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="BGR09" data-aos="zoom-in")
       .row.justify-content-center(titulo="Luz natural o artificial")
         .col-lg-6.order-lg-1.order-2
           ul.lista-ul--color
@@ -92,9 +92,9 @@
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
           img(src="@/assets/curso/tema7/img05.png" alt="Imagen decorativa")
 
-    p Y dentro de los instrumentos utilizados para realizar los controles ambientales se encuentran los siguientes tipos de termohigrómetro:
+    p.mb-5(data-aos="fade-right") Y dentro de los instrumentos utilizados para realizar los controles ambientales se encuentran los siguientes tipos de termohigrómetro:
 
-    TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
+    TabsB.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-lg-5(titulo="Digital" :icono="require('@/assets/curso/tema7/img06.png')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
@@ -141,50 +141,50 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema7/img09.png" alt="Imagen decorativa")
 
-    p Para conocer más sobre cómo se interpretan las mediciones de este instrumento, se invita ver el video #[em Cadena/red fría y la importancia de tener un registro de temperatura y humedad en la farmacia] que se encuentra en el material complementario.
+    p(data-aos="fade-right") Para conocer más sobre cómo se interpretan las mediciones de este instrumento, se invita ver el video #[em Cadena/red fría y la importancia de tener un registro de temperatura y humedad en la farmacia] que se encuentra en el material complementario.
     
     separador
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 7.2 Controles de las condiciones de higiene
 
-    p Estas condiciones son importantes, porque de ellas depende la permanencia de la estabilidad a nivel microbiológico de los productos farmacéuticos que están en el área de almacenamiento.
-    p Se deben tener presente las siguientes consideraciones: 
+    p(data-aos="fade-right") Estas condiciones son importantes, porque de ellas depende la permanencia de la estabilidad a nivel microbiológico de los productos farmacéuticos que están en el área de almacenamiento.
+    p.mb-5 Se deben tener presente las siguientes consideraciones: 
 
-    .BGRS03.p-4.mb-4(data-aos="fade-right")
+    .BGRS03.p-4.mb-4
       .row
         .col-lg-8
           ul.lista-ul--color
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Contar con un lugar con excelente ventilación y donde no esté la presencia libre de gases que contaminen.
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Pisos y paredes hechos de materiales que faciliten su limpieza y aseo.
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Garantizar que los ángulos de las uniones de paredes y pisos no sean rectos, sino curvas que eviten que se acumule polvo y sean de fácil limpieza. 
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Garantizar el correcto aseo en las áreas sanitarias. 
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Realizar la fumigación con una frecuencia mínima de seis meses para evitar presencia de roedores, insectos, etc.
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Realizar limpieza de la nevera y no almacenar alimentos en ella.
-            li
+            li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Diseñar programa de aseo, limpieza y desinfección de las áreas, definiendo fechas, responsables y dejando evidencia de su realización en los formatos indicados.
-        .col-lg-3.col-6.img-03
+        .col-lg-3.col-6.img-03(data-aos="fade-left")
           img(src="@/assets/curso/tema7/img10.png" alt="Imagen decorativa")
     
     separador
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 7.3 Devoluciones de los productos farmacéuticos
 
-    p Las devoluciones de medicamentos deben cumplir con los siguientes requerimientos:
+    p.mb-5(data-aos="fade-right") Las devoluciones de medicamentos deben cumplir con los siguientes requerimientos:
 
-    TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
+    TabsA.color-acento-contenido.mb-4(data-aos="zoom-in")
       .BGR02.p-4(titulo="Área especial de almacenamiento")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -222,9 +222,9 @@
       h2 7.4 Controles de fecha de vencimiento
 
     .row.justify-content-center
-      .col-lg-4.col-8.mb-lg-0.mb-4
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema7/img13.png' alt="Imagen decorativa")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El establecimiento o servicio farmacéutico debe contar con una estructura documental donde estén definidos los criterios y especificaciones que permitan realizar seguimiento a las fechas de vencimiento de los productos farmacéuticos, para evitar que impacten en la salud del usuario y para avisar con la suficiente antelación la devolución o cambio al proveedor, de acuerdo con lo negociado previamente.
         .cajon.color-secundario.p-4
           p.mb-0 Se debe apoyar en la metodología FEFO (primeros en vencer primeros en salir) y garantizar que se informará al proveedor con mínimo con tres meses de anticipación.

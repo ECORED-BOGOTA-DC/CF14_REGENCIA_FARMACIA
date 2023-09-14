@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Contextualización del proceso de almacenamiento
@@ -27,7 +27,7 @@
       .col-lg-11(data-aos="fade-left")
         p.mb-0 Como se pudo observar en la figura anterior, el proceso de almacenamiento se encuentra entre los procesos de recepción y distribución, siendo el puente entre las actividades donde se reciben los productos farmacéuticos que luego serán distribuidos de manera interna o externa, dependiendo del tipo de distribución y el establecimiento farmacéutico.
 
-    p.mb-5 Para el proceso de almacenamiento de los productos farmacéuticos, las normas que aplican son: 
+    p.mb-5(data-aos="fade-right") Para el proceso de almacenamiento de los productos farmacéuticos, las normas que aplican son: 
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .py-4.py-lg-5(titulo="Resolución 1403 de 2007" :icono="require('@/assets/curso/tema1/img04.png')")

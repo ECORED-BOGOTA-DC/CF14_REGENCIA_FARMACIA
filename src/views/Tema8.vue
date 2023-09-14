@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Logística en el abastecimiento, acondicionamiento y distribución de productos farmacéuticos
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-2(data-aos="fade-right")
+      .col-lg-1.col-3.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema8/img01.png" alt="Imagen decorativa")
-      .col
+      .col-lg(data-aos="fade-left")
         p Para trasladar y realizar la entrega de los productos farmacéuticos, se debe tener presente los requisitos que están determinados en la Resolución 1403 de 2007, en el Código de Comercio y otras que regulan el transporte de sustancias como los son los productos farmacéuticos
         p.mb-0 Se puede tener las dos alternativas: que el transporte sea propio o de un tercero; en ambos casos se debe garantizar el cumplimiento con la normatividad en cuanto al transporte.
 
-    p Para el transporte se deben tener en cuenta las siguientes consideraciones:
+    p.mb-5(data-aos="fade-right") Para el transporte se deben tener en cuenta las siguientes consideraciones:
 
-    TabsC.color-primario(data-aos="fade-right")
+    TabsC.color-primario(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Embalaje")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2

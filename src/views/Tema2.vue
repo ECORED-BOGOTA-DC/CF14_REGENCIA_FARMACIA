@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Planificación del proceso de almacenamiento
     
-    p Todo el proceso de almacenamiento se debe planificar teniendo en cuenta los aspectos especificados en la siguiente imagen:
+    p(data-aos="fade-right") Todo el proceso de almacenamiento se debe planificar teniendo en cuenta los aspectos especificados en la siguiente imagen:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 2.
         span Etapas planificación del proceso de almacenamiento
@@ -20,9 +20,9 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Selección del lugar
     
-    p Para la selección del lugar de almacenamiento de los productos en los servicios y establecimientos farmacéuticos, se deben tener en cuenta los siguientes aspectos: #[strong localización especial, acceso y tamaño], bajo las condiciones que se describen a continuación:
+    p.mb-5(data-aos="fade-right") Para la selección del lugar de almacenamiento de los productos en los servicios y establecimientos farmacéuticos, se deben tener en cuenta los siguientes aspectos: #[strong localización especial, acceso y tamaño], bajo las condiciones que se describen a continuación:
       
-    TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
+    TabsB.color-acento-contenido(data-aos="fade-right")
       .py-4.py-lg-5(titulo="Fuentes de contaminación" :icono="require('@/assets/curso/tema2/img02.png')")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
@@ -69,7 +69,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Diseño de las instalaciones
 
-    p Con el objetivo de lograr un servicio eficiente, deben definirse las siguientes áreas:
+    p.mb-5(data-aos="fade-right") Con el objetivo de lograr un servicio eficiente, deben definirse las siguientes áreas:
 
     .BG01.mb-5(data-aos="zoom-in")
       SlyderF(columnas="col-12")
@@ -107,7 +107,7 @@
             .h4.text-center.mb-0 Administrativa
     
     .row.justify-content-end.align-items-end.pt-lg-5.mb-4
-      .col-lg-3.col-6.img-01(data-aos="fade-right")
+      .col-lg-3.col-6.img-01.d-lg-flex.d-none(data-aos="fade-right")
         img(src="@/assets/curso/tema2/img14.svg" alt="Imagen decorativa")
       .col-lg-12.BG03.p-4(data-aos="fade-left")
         .row.justify-content-end
@@ -130,31 +130,31 @@
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Lugar para materiales de riesgo químico como: líquidos inflamables, tóxicos, corrosivos, etc.
 
-    p Los siguientes factores también son importantes al momento de aplicarse en el diseño de las instalaciones:
+    p.mb-5(data-aos="fade-right") Los siguientes factores también son importantes al momento de aplicarse en el diseño de las instalaciones:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR09" data-aos="fade-up")
       .row.justify-content-center(titulo="Señalización")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Cada área debe tener una adecuada señalización y estar demarcada con los colores definidos en la tabla.
           .row
             .col-auto
               a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                 span(style="color: #000000; font-weight: 700 ") Tabla de Colores
                 .indicador--click(v-if="mostrarIndicador")
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img15.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Distribución")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p La figura muestra un ejemplo de la distribución de las áreas de un servicio farmacéutico, incluyendo su identificación con colores.
           .row
             .col-auto
               a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                 span(style="color: #000000; font-weight: 700 ") Distribución de las Áreas
                 .indicador--click(v-if="mostrarIndicador")
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img16.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Pisos")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Los pisos del servicio o establecimiento farmacéutico deben cumplir con los siguientes requisitos:
           ul.lista-ul--color
             li
@@ -185,13 +185,13 @@
               i.far.fa-check-circle(style="color: #00BCD4")
               | No utilizar sifón o rejilla, ya que promueve el acceso de roedores. En caso de utilizarlas, instalar mallas o rejillas seguras.
 
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure.mb-4
             img(src='@/assets/curso/tema2/img17.png' alt="Imagen decorativa")
           .cajon.color-secundario.p-4
             .h5.mb-0 Los productos farmacéuticos no deben estar en contacto directo con el piso. Para ello, se deben utilizar estibas o estanterías que cumplan con requisitos de resistencia, y materiales que no propaguen la contaminación e incendios.
       .row.justify-content-center(titulo="Temperatura y humedad")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Las condiciones de temperatura y humedad deben:
           ul.lista-ul--color
             li
@@ -206,10 +206,10 @@
               a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                 span(style="color: #000000; font-weight: 700 ") Tabla rangos de temperatura
                 .indicador--click(v-if="mostrarIndicador")
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img18.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Cadena de frío")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Los productos farmacéuticos que necesitan ser refrigerados deben ser llevados a:
           ul.lista-ul--color
             li
@@ -236,15 +236,15 @@
               a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
                 span(style="color: #12263F; font-weight: 700 ") Cadena de frío de las vacunas
                 .indicador--click(v-if="mostrarIndicador")
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img19.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Refrigeración")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Los cuartos fríos son utilizados cuando se manejan volúmenes muy grandes de productos farmacéuticos que requieren temperaturas muy específicas como se verá en la siguiente figura.
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img20.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Refrigeración vacunas")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p Uno de los productos farmacéuticos que requiere mayor cuidado en su manipulación y almacenamiento son los biológicos (vacunas).
           p Para su conservación en las neveras se debe tener en cuenta:
           ul.lista-ul--color
@@ -257,10 +257,10 @@
             li
               i.far.fa-check-circle(style="color: #00BCD4")
               | Los elementos que sirven como coadyuvantes para su conservación.
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img21.png' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Almacenamiento vacunas")
-        .col-lg-5
+        .col-lg-5.order-lg-1.order-2
           p La identificación de los productos farmacéuticos (vacunas) incluye:
           ul.lista-ul--color
             li
@@ -280,7 +280,7 @@
               | Fecha de ingreso.
           .cajon.color-secundario.p-4
             .h5.mb-0 No se deben almacenar otros productos diferentes a las vacunas en las neveras.
-        .col-lg-5
+        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema2/img22.png' alt="Imagen decorativa")
 
     ModalA(:abrir-modal.sync="modal1")
@@ -411,7 +411,7 @@
       p-4
         img(src='@/assets/curso/tema2/img23.svg' alt="Muestra cadena de frio: vacunas, gel refrigerante, embalaje térmico, transporte refrigerado, almacenamiento, monitoreo inteligente, distribución")
     
-    p Y siempre se deben tener en cuenta las siguientes características y requisitos:
+    p.mb-5(data-aos="fade-right") Y siempre se deben tener en cuenta las siguientes características y requisitos:
 
     TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
       .BGR02.p-4(titulo="Paredes")
@@ -489,7 +489,7 @@
           .col-lg-6.col-10
             img(src='@/assets/curso/tema2/img28.png' alt="Imagen decorativa")
 
-    p Ante posibles inconvenientes, es indispensable contar con un plan de contingencia para garantizar que las condiciones de conservación de los productos farmacéuticos no se alteren.
+    p.mb-5(data-aos="fade-right") Ante posibles inconvenientes, es indispensable contar con un plan de contingencia para garantizar que las condiciones de conservación de los productos farmacéuticos no se alteren.
 
     .tarjeta.color-secundario.p-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
@@ -504,7 +504,6 @@
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/plan_de_contingencia_cadena_de_frio_ante_falla_o_interrupcion_de_fluido_electrico.pdf')" target="_blank")
                 span(style="color: #000") Enlace
                 i.fas.fa-link(style="color: #000")
-
 
 </template>
 

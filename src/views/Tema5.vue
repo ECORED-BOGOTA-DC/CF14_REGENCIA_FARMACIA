@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Requisitos documentales en las buenas prácticas de almacenamiento
     
-    p Todo proceso, para su correcto funcionamiento y mejora continua, debe estar documentado, para lograr la estandarización de cada una de sus actividades y que cada uno de sus integrantes realicen sus tareas de la misma forma. A continuación, se indica cuáles son esos documentos.
+    p.mb-5(data-aos="fade-right") Todo proceso, para su correcto funcionamiento y mejora continua, debe estar documentado, para lograr la estandarización de cada una de sus actividades y que cada uno de sus integrantes realicen sus tareas de la misma forma. A continuación, se indica cuáles son esos documentos.
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .py-4.py-lg-5(titulo="Pirámide documental" :icono="require('@/assets/curso/tema5/img01.png')")
@@ -36,7 +36,7 @@
                   .h4 Informes contables
                   p.mb-0 Informes para los organismos de control o requerimientos internos.
 
-    p A continuación, se detalla la importancia de cada uno de los documentos requeridos en el proceso, se nombran algunos de ellos y, como apoyo complementario, se incluyen los vínculos que llevan a ejemplos para conocer cómo se utilizan en los establecimientos y servicios farmacéuticos.
+    p.mb-5(data-aos="fade-right") A continuación, se detalla la importancia de cada uno de los documentos requeridos en el proceso, se nombran algunos de ellos y, como apoyo complementario, se incluyen los vínculos que llevan a ejemplos para conocer cómo se utilizan en los establecimientos y servicios farmacéuticos.
 
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
