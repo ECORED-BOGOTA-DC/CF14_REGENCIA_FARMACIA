@@ -350,13 +350,13 @@ export default {
       autores: [
         {
           nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseñador web',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -391,7 +391,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
