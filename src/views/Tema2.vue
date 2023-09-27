@@ -320,68 +320,8 @@
               td.text-center.text-white(style="background-color: #548DD4;") Azul rayado
     
     ModalA(:abrir-modal.sync="modal2")
-      .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F2EEFC")
-        SlyderA.slyder-a-edit(tipo="b")
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Depósitos de drogas
-              p En la imagen se muestran sus áreas.
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-2.png' alt="Muestra depósitos de drogas:<br>Administrativa delimitada.<br>De recepción.<br>Cuarentena.<br>Almacenamiento de acuerdo a los productos.<br>Almacenamiento de medicamentos de control especial.<br>Almacenamiento de materias primas y que requieran cadena de frío.<br>Almacenamiento para destrucción o desnaturalización.<br>Almacenamiento rechazado, devueltos y retirados del mercado.<br>De alistamiento y despacho.<br>Reenvase de materias primas en caso de realizarlo<br>Manejo y disposición de residuos reglamentación vigente." style="max-width: 660px")
-          
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Agencias de especialidades farmacéuticas
-              p Para estas se aplican las mismas disposiciones mencionadas a los depósitos de drogas, con excepción del reenvase de materias primas, pues no lo tienen autorizado.
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-3.png' alt="Imagen decorativa" style="max-width: 660px")
-          
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Droguerías
-              p Las áreas son las mismas mencionadas para farmacias, droguerías, excepto la de preparaciones magistrales ya que las droguerías no están autorizadas para tenerla
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-4.png' alt="Imagen decorativa" style="max-width: 660px")
-
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Farmacias - droguerías
-              p En la imagen se muestran las áreas que la conforman. Adicionalmente se debe tener en cuenta:
-              ul.lista-ul--color
-                li
-                  i.fas.fa-atom(style="color: #7E5EE3")
-                  | Para las preparaciones magistrales se debe contar con un área para el almacenamiento de las materias primas.
-                li
-                  i.fas.fa-atom(style="color: #7E5EE3")
-                  | El área de cuarentena se divide en I naranja y II negra para el almacenamiento adecuado de los productos y evitar confusiones.
-                li
-                  i.fas.fa-atom(style="color: #7E5EE3")
-                  | El área de almacenamiento debe estar segregada por clase de productos, es decir, no se pueden mezclar medicamentos con dispositivos o con fitoterapéuticos, etc.
-                li
-                  i.fas.fa-atom(style="color: #7E5EE3")
-                  | El área que aparece en la imagen como “material reciclable” está mal nombrada, su nombre correcto es área de manejo y disposición de residuos; allí deben ir los residuos bien segregados y separados por container de acuerdo con la normatividad vigente.
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-4.png' alt="Administrativa" style="max-width: 660px")
-          
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Servicios farmacéuticos hospitalarios de baja complejidad
-              p Este servicio debe contar las áreas mostradas en la imagen.
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-5.png' alt="Muestra listado de servicios farmacéuticos hospitalarios de baja complejidad:<br>Administrativa delimitada.<br>De recepción.<br>Cuarentena.<br>Almacenamiento de acuerdo a los productos.<br>Almacenamiento de medicamentos de control especial.<br>Dispensación.<br>Almacenamiento para destrucción o desnaturalización.<br>Almacenamiento rechazado, devueltos y retirados del mercado.<br>Manejo y disposición de residuos reglamentación vigente." style="max-width: 660px")
-
-          .row.justify-content-center
-            .col-lg-5.order-lg-1.order-2
-              .h5 Servicios farmacéuticos hospitalarios de mediana y alta complejidad
-              p Además de las áreas mencionadas para el servicio farmacéutico hospitalario de baja complejidad, el servicio farmacéutico hospitalario de mediana y alta complejidad, debe tener las siguientes áreas adicionales:
-            .col-lg-7.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img.mx-auto(src='@/assets/curso/tema2/img-6.png' alt="Imagen decorativa" style="max-width: 660px")
+      figure
+        img(src='@/assets/curso/tema2/img-4.png' alt="Imagen decorativa")  
     
     ModalA(:abrir-modal.sync="modal3")
       .tabla-a.color-acento-contenido

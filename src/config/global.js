@@ -197,7 +197,7 @@ export default {
     },
     {
       termino: 'BPA',
-      significado: 'Buenas Prácticas de Abastecimiento.',
+      significado: ' Buenas Prácticas de Abastecimiento.',
     },
     {
       termino: 'Bodega',
