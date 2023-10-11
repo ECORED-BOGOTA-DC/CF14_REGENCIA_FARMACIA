@@ -72,7 +72,7 @@
     p.mb-5(data-aos="fade-right") Con el objetivo de lograr un servicio eficiente, deben definirse las siguientes áreas:
 
     .BG01.mb-5(data-aos="zoom-in")
-      SlyderF(columnas="col-12")
+      SlyderF.px-2(columnas="col-12")
         .row.justify-content-center
           img(src='@/assets/curso/tema2/img06.jpg' alt="Imagen decorativa")
           .BG02.p-2

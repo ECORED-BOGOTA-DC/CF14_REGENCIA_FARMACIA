@@ -21,7 +21,7 @@
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             .h4 Requerimientos documentales
-            p Adicional a los documentos enunciados antes, se tiene la alternativa de contar con un #[em software] que agilice el registro y análisis de la información como insumo para la toma de decisiones, el cual debe contar con el manejo y control de información o procesos descrita en la ilustración.
+            p Adicional a los documentos enunciados antes, se tiene la alternativa de contar con un #[em software] que agilice el registro y análisis de la información como insumo para la toma de decisiones, el cual debe contar con el manejo y control de información o procesos descritos en la ilustración.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             .BG05.p-4.mb-lg-4
               .h4 Dotación
@@ -41,7 +41,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/img04.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -56,7 +56,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/img05.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -64,14 +64,14 @@
               p.text-white.mb-2 #[strong Función]: detallar paso a paso una actividad que se realice.
               p.text-white.mb-2 #[strong Ejemplo]: instructivo de limpieza.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Instructivo_de_Limpieza_y_desinfección.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Instructivo_de_Limpieza_y_desinfeccion.pdf')" target="_blank")
                 span(style="color: #000") Descargar
                 i.fas.fa-file-download(style="color: #000")
 
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/img06.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -87,7 +87,7 @@
     .tarjeta.color-secundario.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/img29.png" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/img07.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

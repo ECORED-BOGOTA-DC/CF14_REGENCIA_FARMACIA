@@ -71,7 +71,7 @@
           img(src='@/assets/curso/tema6/img06.png' alt="Imagen decorativa")
         .col-lg-9
           .h5.mb-2 Estante # 1. 
-          p.mb-0 Ampollas, empezando por la letra A (ampicilina, aminofilina, …), por la B (betametazona, …) y así sucesivamente.
+          p.mb-0 Ampollas, empezando por la letra A (ampicilina, aminofilina, etc.), por la B (betametazona, etc.) y así sucesivamente.
       .row.justify-content-center.BGR02.p-3(x="18%" y="50%" numero="2")
         .col-lg-3.col-6.mb-lg-0.mb-4
           img(src='@/assets/curso/tema6/img07.png' alt="Imagen decorativa")

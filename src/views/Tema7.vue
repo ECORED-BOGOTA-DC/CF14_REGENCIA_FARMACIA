@@ -102,7 +102,7 @@
             ul.lista-ul--color.mb-5
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
-                | Temperatura interior de 0 a 50° C.
+                | Temperatura interior de 0 a 50 °C.
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Temperatura exterior 50 °C a 70 °C.
@@ -122,16 +122,16 @@
             ul.lista-ul--color
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
-                | #[strong Rango temperatura:] -30 +50º C.
+                | #[strong Rango temperatura:] -30 + 50 ºC.
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | #[strong Humedad relativa:] 20 a 100 % HR.
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
-                | #[strong División de escala:] 1° C /2 % HR.
+                | #[strong División de escala:] 1 °C / 2 % HR.
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
-                | #[strong Precisión:] ± 2°C / ±10 % HR aprox.
+                | #[strong Precisión:] ± 2 °C / ± 10 % HR aprox.
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | #[strong Recalibrable.]
@@ -175,7 +175,8 @@
             li(data-aos="fade-right")
               i.far.fa-check-circle(style="color: #00BCD4")
               | Diseñar programa de aseo, limpieza y desinfección de las áreas, definiendo fechas, responsables y dejando evidencia de su realización en los formatos indicados.
-        .col-lg-3.col-6.img-03(data-aos="fade-left")
+        .col-2.d-lg-none.d-flex
+        .col-lg-3.col-8.img-03(data-aos="fade-left")
           img(src="@/assets/curso/tema7/img10.png" alt="Imagen decorativa")
     
     separador

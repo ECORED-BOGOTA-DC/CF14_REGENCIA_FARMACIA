@@ -180,9 +180,9 @@ export default {
     {
       tema: 'Controles de factores ambientales',
       referencia:
-        'Carthez, A. (2018). Cadena/red fría y la importancia de tener un registro de temperatura y humedad en la farmacia (Video). YouTube.',
+        'Flores, A. (2021). FARMACIA-Prácticas de Almacenamiento y Cadena de Frío- Ana María Flores (Video). YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=MSaOOXlji3g',
+      link: 'https://www.youtube.com/watch?v=dhVYm5Jgsug',
     },
   ],
   glosario: [
@@ -204,7 +204,7 @@ export default {
       significado: 'espacio destinado al almacenamiento de distintos bienes.',
     },
     {
-      termino: 'Cadena de frio',
+      termino: 'Cadena de frío',
       significado:
         'cadena de suministro de temperatura controlada 2-8 grados centígrados.',
     },
@@ -229,7 +229,7 @@ export default {
     {
       termino: 'Higroscópico',
       significado:
-        'que es sensibles a la humedad, generando un deterioro en su forma farmacéutica como ablandamiento, cambio de color (tableta).',
+        'que es sensible a la humedad, generando un deterioro en su forma farmacéutica como ablandamiento, cambio de color (tableta).',
     },
     {
       termino: 'Logística',
@@ -256,8 +256,6 @@ export default {
     {
       referencia:
         'Invima. (s.f.). Buenas prácticas de almacenamiento y distribución.',
-      link:
-        'https://www.invima.gov.co/images/pdf/inspecion_y_vigilancia/ASS-ESADI072-BUENASPRACTICASDEALMACENAMIENTOYDISTRIBUCION.pdf',
     },
     {
       referencia:
@@ -268,8 +266,6 @@ export default {
     {
       referencia:
         'Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2009). Resolución 0371 de 2009. Por la cual se establecen los elementos que deben ser considerados en los Planes de Gestión de Devolución de Productos Posconsumo de Fármacos o Medicamentos Vencidos.',
-      link:
-        'https://www.corporinoquia.gov.co/files/Norma%20Respel/Resolucion_371_de_2009.pdf',
     },
     {
       referencia:

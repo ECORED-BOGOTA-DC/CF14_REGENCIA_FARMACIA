@@ -39,9 +39,7 @@
               li
                 i.far.fa-check-circle(style="color: #00BCD4")
                 | Dirección de quien remite y recibe.
-              li
-                i.far.fa-check-circle(style="color: #00BCD4")
-                | <a style="font-weight: 900">Información técnica de los productos farmacéuticos:</a>
+            .h5 Información técnica de los productos farmacéuticos:
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta(style="background-color: #7E5EE3")
@@ -113,7 +111,7 @@
 
     ModalA(:abrir-modal.sync="modal1")
       .p-4
-        img(src="@/assets/curso/tema8/img06.svg" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema8/img06.svg" alt="Muestra imagen con pictogramas utilizados para medicamentos,  símbolo radioactividad, principio activo, gas medicinal y letras.")
 
 
 </template>

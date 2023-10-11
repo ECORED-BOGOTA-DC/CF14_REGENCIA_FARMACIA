@@ -38,7 +38,7 @@
             p #[strong Campo de aplicación]: establecimiento farmacéutico donde se almacenen, comercialicen, distribuyan o dispensen medicamentos y dispositivos médicos o se realice cualquier otra actividad o proceso del servicio farmacéutico.
             .row
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/Resolución_1403_de_2007.pdf')" target="_blank")
+                a.anexo.mb-4(:href="obtenerLink('/downloads/Resolucion_1403_de_2007.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto

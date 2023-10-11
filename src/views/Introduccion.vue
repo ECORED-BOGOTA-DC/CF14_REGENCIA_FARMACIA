@@ -10,7 +10,9 @@
       h1 Introducción
     
     figure.mb-5(data-aos="zoom-in")
-      img(src="@/assets/curso/intro/img01.jpg" alt="Imagen decorativa")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/naLJb7109Zs?si=0LXJE42w3xmHolJv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
