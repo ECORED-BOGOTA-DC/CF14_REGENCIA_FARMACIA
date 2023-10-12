@@ -321,7 +321,7 @@
     
     ModalA(:abrir-modal.sync="modal2")
       figure
-        img(src='@/assets/curso/tema2/img-4.png' alt="Imagen decorativa")  
+        img(src='@/assets/curso/tema2/img-4.png' alt="Muestra áreas de farmacia droguerías:<br>Material reciclable.<br>Bodega.<br>Aseo.<br>Servicios sanitarios.<br>Preparados magistrales.<br>Medicamentos de control especial.<br>Almacenamiento.<br>Dispensación.<br>Sustancias inflamables.<br>Cuarentena.<br>Inyectología.<br>Cadena de frío.<br>Recepción.<br>Administrativa.")  
     
     ModalA(:abrir-modal.sync="modal3")
       .tabla-a.color-acento-contenido
